@@ -1,1 +1,39 @@
-Ronalds
+Paroles ģenerātors
+Funkcionalitāte:
+
+    Iespēja ievadīt 'ciparu' skaitu parolē(0-10)
+    Iespēja ievadīt 'mazo burtu' skaitu parolē(0-10)
+    Iespēja ievadīt 'LIELO BURTU' skaitu parolē(0-10)
+    Iespēja ievadīt 'speciālo simbolu' skaitu parolē(0-5)
+  Iespēja ievadīt vēlamo skaitu ģenerēto paroļu (1-10)
+  Ievades poga 'Ģenerēt' pēc kuras ģeerējas parole/paroles pēc prasībām
+
+  aprēķina kopējo simbolu skaitu
+  Ja aprēķinātais simbolu skaits ir mazāks par 10 tad:
+    Izvada 1 aili ar tekstu ka kopējam paroles simbolu skaitam jābūt vismaz 10
+  Ja aprēķinātais simbolu skaits ir lielāks par 30 (neieskaitot) tad:
+    Izvada 1 aili ar tekstu ka kopējais paroles simbolu skaits nevar pārsniegt 30
+  else:
+  paroles ģenerācija pēc prasībām
+  
+  Izvade: (texta formātā) Ģenerētās paroles
+
+interfeiss:
+  lietotne sadalīta uz pusēm 
+    Kreisā puse:5 teksti kur aprakstīts ko ievadīt(4,5,6,7,8 rinda) 
+                5 ailes kur ievadīt 4,5,6,7,8 rindas prasības.
+                Apakšā poga ar tekstu 'Ģenerēt'
+    labā puse: pēc 'generēt' pogas uzspiešanas parādās ailes ar ģenerētām parolēm(teksta formātā) (tik cik ievadīts(8 rinda))
+
+Piemērs:
+  Ievada '2' ciparu skaits
+  Ievada '4' mazo burtu skaits
+  Ievada '3' Lielo burtu skaits
+  ievada '2' Speciālo simbolu skaitu
+  Ievada '2' Vēlamo ģenerēto paroļu skaits
+  uzspiež pogu 'ģenerēt'
+  Izvada 2 ģenerētās paroles pēc prasībām (par0LE3#a_A ; O10Ldda_E$c)
+
+
+Piemērs no interneta (kā apmēram tas varētu izskatīties) https://kalkulatori.lv/lv/password-generator
+   
